@@ -111,6 +111,11 @@ rt:
         return 0;
     }
     start++;
+    if( start == end ){
+        goto rt;
+    }
+    tmpaddr = start+1;
+    count = start;
 
     goto quicksort;
 }

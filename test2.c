@@ -5,6 +5,7 @@
 
 #define SIZE 10000000
 int find, data[SIZE], *numaddr;
+bool flag = false;
 
 void swap(int *a, int *b){
  int temp = *a;
@@ -12,6 +13,10 @@ void swap(int *a, int *b){
  *b = temp;
 }
 void quicksort(int *data, int left, int right){
+    
+    if(flag){
+        return;
+    }
 
  int pivot, i, j;
  if (left >= right) { return; }
@@ -40,7 +45,9 @@ void quicksort(int *data, int left, int right){
  swap(&data[i], &data[j]);
  }
  swap(&data[left], &data[j]);
-
+  if( j == find ){
+      flag = true;
+    }
  quicksort(data, left, j - 1);
  quicksort(data, j + 1, right);
  }

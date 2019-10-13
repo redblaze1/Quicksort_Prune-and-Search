@@ -113,6 +113,11 @@ rt:
         printarr;
         return 0;
     }
+    if( start == end ){
+        goto rt;
+    }
+    tmpaddr = start+1;
+    count = start;
     start++;
 
     goto quicksort;
