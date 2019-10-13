@@ -37,7 +37,7 @@ int main(){
     end = data+SIZE-1;
     printf("請輸入要陣列幾資料: ");
     scanf("%d", &find);
-    if(find > SIZE){
+    if(find >= SIZE){
         printf("要找的數不能大於陣列長度\n");
         return 0;
     }
