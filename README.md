@@ -1,7 +1,7 @@
 # Quicksort_Prune-and-Search
 作業三
 
-### 注意:
+### 心路歷程:
 - **這個作業我交了2次,所以有3次的PDF**
 - **下載PDF:[請點我](https://drive.google.com/file/d/1pFXEG9Zf-pew6ZaNYXb1wFI3qhrubf-H/view?usp=sharing)**
 ### 環境
@@ -18,3 +18,18 @@
 ![image](https://blog.techbridge.cc/img/huli/sorting/quick.gif)
 ### 本程式流程圖
 ![image](https://i.imgur.com/qrcIgqc.jpg)
+
+### 效能比較:
+#### 注意,code都是產生1000萬個亂數,然後尋找第500萬個大的數
+
+#### **時間比較:**
+| Code | Time |
+| ---- | ---- |
+| `我的code`  | 大約0.2秒|
+| `別人的code`    | 大約2.2秒 |
+###### 圖示:
+![image](https://imgur.com/GSb0s0x.jpg)
+#### **關鍵指令的執行次數比較:**
+![image](https://imgur.com/IFvVJlj.jpg)
+##### 
+此[Shell Script File](https://github.com/redblaze1/Quicksort_Prune-and-Search/blob/master/performance/test.sh)
