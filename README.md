@@ -15,7 +15,7 @@
 | `test2.c`  | 把網路上別人的code拿來改,第一個[commit](https://github.com/redblaze1/Quicksort_Prune-and-Search/commit/1d8b025f0d6e51b36811374ccb5d08114cc837c8#diff-054a537f807fed494884560f8073369a)為第一次PDF的內容,有quicksort,但沒有Prune-and-Search,第二次[commit](https://github.com/redblaze1/Quicksort_Prune-and-Search/commit/323696aca5d9ce96eafea41087c42e19515dc7d6#diff-054a537f807fed494884560f8073369a)為加上Prune and Search後的code |
 
 ### 本程式所參考的gif
-![image](https://blog.techbridge.cc/img/huli/sorting/quick.gif)
+![image](https://static.coderbridge.com/img/techbridge/images/huli/sorting/quick.gif)
 ### 本程式流程圖
 ![image](https://i.imgur.com/qrcIgqc.jpg)
 
